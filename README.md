@@ -1,2 +1,2 @@
 # Bank
- Am app for some bank on Python
+ An app for some bank on Python
