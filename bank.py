@@ -33,9 +33,13 @@ class App(tk.Tk):
         #index = 0
         if index == 0:
             self.destroy() 
-            os.system("python C:/pyton/курсач/user.py")
+            os.system("python C:/pyton/курсач/admin.py")
         elif index == 1:
-            messagebox.showinfo("GUI Python", 'Hello, world')
+            self.destroy() 
+            os.system("python C:/pyton/курсач/user.py")
+        elif index == 2:
+            self.destroy() 
+            os.system("python C:/pyton/курсач/pers.py")
         else:
             messagebox.showinfo("WARNING", 'Incorrect login or password')
 
